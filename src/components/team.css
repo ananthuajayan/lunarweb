@@ -1,0 +1,166 @@
+img{
+  width: 100%;
+  height: 100%;
+}
+.request-sucess{
+  position: fixed;
+  top: 10px;
+  right: calc(100%-300px);
+  color: rgb(29, 27, 27);
+  border: 1px solid white;
+  padding: 20px;
+  border-radius: 5px;
+  visibility: hidden;
+  z-index: 20000000;
+  background-color: rgb(196, 210, 210);
+}
+.request-sucess button{
+  color: white;
+  padding: 5px 10px;
+  background-color: #363666;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.team .row{
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+  .team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  /* .col img{
+    max-width: 400px;
+  } */
+
+  .manager{
+    padding: 10px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 10, 0.5);
+    border-radius: 5px;
+    margin-bottom: 50px;
+  }
+  .manager-image img{
+    height: 370px;
+  }
+  .col span{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+}
+.pillers{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 60px 0px;
+}
+
+  .manager p{
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+
+  }
+ 
+  .developer{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 20px;
+   margin-top: -50px;
+
+  }
+  .dev-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  .dev-image img{
+    border-radius: 50%;
+  }
+  #dev{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+  }
+  .management-team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .management-team img{
+    max-height: 370px;
+  }
+  @media(max-width:1201px){
+    .management-team{
+      grid-template-columns: 1fr 1fr;
+    }
+    .manager{
+      max-width: 350px;
+      margin: 0px 0px 50px;
+      padding: 10px;
+    }
+  }
+  @media(max-width:993px){
+    .team .row{
+        margin-top: 80px;
+    }  
+    .developer{
+      grid-template-columns: 1fr 1fr;
+      gap: 40px 0px;
+    }
+    .pillers{
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media(max-width:795px) {
+    .management-team{
+      grid-template-columns: 1fr;
+    }
+  }
+  @media(max-width:690px){
+    .request-sucess{
+      right: 30%;
+    }
+    #name,#phno,#email,#service{
+      width: 100%;
+    }
+  }
+  @media(max-width:480px){
+    .request-sucess{
+      right: 10%;
+    }
+  }
+  @media(max-width:542px){
+    .management-team{
+      grid-template-columns: 1fr;
+    }
+    .col{
+        padding: 5px;
+    }
+    input{
+        width: 200px;
+    }
+    .team img{
+        max-width: 300px;
+    }
+    .manager img{
+        width: unset;
+    }
+    #dev{
+      border: 1px solid black;
+      border-radius: 25px;
+
+    }
+    .developer{
+      grid-template-columns: 1fr ;
+    }
+    .pillers{
+      grid-template-columns: 1fr;
+    }
+  }
