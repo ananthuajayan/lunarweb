@@ -43,9 +43,64 @@ margin: 80px 0px;
 .requirements{
     color: #363666;
     margin-bottom: 20px;
-    border-bottom: 1px solid #363666;
     font-size: 25px;
 }
+
+.service-container{
+    width: 80%;
+    margin: auto;
+   
+}
+.service-boxes{
+   
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #363666;
+   
+}
+.service-boxes.odd {
+    flex-direction: row-reverse;
+  }
+  .service-boxes.odd img {
+    border-radius: 90px 0px 0px 90px;
+}
+.service-images img{
+  height: 200px;
+  border-radius: 0px 90px 90px 0px;
+  object-fit: cover;
+}
+.service-images{
+    width: 50%;
+}
+
+.service-para{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.service-para h5{
+    color: #363666;
+}
+.service-para p{
+    font-weight: 600;
+}
+
+@media(max-width:938px){
+    .service-boxes{
+        grid-template-columns: 1fr;
+    }
+    .service-images{
+        display: none;
+    }
+    .service-para{
+        width: 100%;
+    }
+}
+
 @media(max-width:582px){
     .website-image{
         margin-top: 70px;
