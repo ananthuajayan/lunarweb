@@ -1,45 +1,52 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+ import branding from '../webimages/brandng and logo.jpg';
+ import print from '../webimages/Print design.jpg';
+ import web from '../webimages/web graphics.jpg';
+ import Illustrations from '../webimages/Illustrations and Infographics.jpg';
+ import ui from '../webimages/uiux.jpg';
+ import custom from '../webimages/custom graphics.jpg';
+ import packaging from '../webimages/packaging design.jpg';
 
 const serviceData = [
   {
-    imageUrl: 'https://i.pinimg.com/564x/fe/7d/16/fe7d161e6f5a16aa6deea0c66d3b5e21.jpg',
+    imageUrl: branding,
     title: 'Branding and Logo Design',
     description: 'Make a memorable first impression with a distinctive brand identity. Our talented designers craft unique logos and branding materials that resonate with your audience and reflect the essence of your business.',
   },
   {
-    imageUrl: 'https://i.pinimg.com/564x/2a/58/9e/2a589e9dff34fca4069b9611fe598279.jpg',
+    imageUrl: print,
     title: 'Print Design',
     description: 'Elevate your offline presence with striking print materials. From business cards and brochures to posters and packaging, we design visually compelling print assets that communicate your message effectively.',
     
   },
   {
-    imageUrl: 'https://i.pinimg.com/564x/a7/6b/64/a76b6404c6296b32ed0a85dcf334d188.jpg',
+    imageUrl: web,
     title: 'Web Graphics',
     description: 'Enhance your online presence with stunning web graphics. Our design team creates eye-catching website elements, social media graphics, and banners that reinforce your brand and engage your audience.',
     
   },
   {
-    imageUrl: 'https://i.pinimg.com/564x/4c/ec/83/4cec83099d1f1fb2e1bee002a08c26af.jpg',
+    imageUrl:Illustrations,
     title: 'Illustrations and Infographics',
     description: 'Add a touch of creativity to your content with custom illustrations and infographics. Our artists bring ideas to life, simplifying complex information and making it visually appealing for your audience.',
     
   },
   {
-    imageUrl: 'https://i.pinimg.com/564x/35/a1/e2/35a1e25e38e6a84f770926816c689367.jpg',
+    imageUrl: ui,
     title: 'UI/UX Design',
     description: 'Ensure a seamless user experience with our UI/UX design services. We create intuitive interfaces that enhance user satisfaction, driving engagement and loyalty for your digital products.',
     
   },
   {
-    imageUrl: 'https://i.pinimg.com/564x/4f/be/bb/4fbebb83cb5a1f10397c9119aaa9b08c.jpg',
+    imageUrl: custom,
     title: 'Custom Graphics for Event',
     description: 'Make your events unforgettable with custom graphics. From invitations and banners to event signage, we design visuals that capture the spirit of your occasion and leave a lasting impression on attendees.',
     
     
   },
   {
-    imageUrl: 'https://i.pinimg.com/564x/f5/c7/f8/f5c7f84f42d28c670b28437930543d7d.jpg',
+    imageUrl: packaging,
     title: 'Packaging Design',
     description: 'Stand out on the shelves with captivating packaging design. Our team combines aesthetic appeal with functional considerations to create packaging that not only looks great but also communicates the value of your product.',
     
@@ -77,13 +84,7 @@ const Graphic = () => {
     </div>
   ))}
 </div>
-<div className="container">
-        <p>
-          <b>
-          Ready to elevate your brand with exceptional graphic design? Contact Lunar Entreprises Design Studio today, and let's embark on a journey to create visuals that speak volumes and resonate with your audience.
-          </b>
-        </p>
-      </div>
+
     </>
   );
 }

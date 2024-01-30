@@ -10,7 +10,10 @@ const Project = () => {
        <div className='website-image'>
       <img style={{objectFit:'cover'}} src="https://images.unsplash.com/photo-1572177812156-58036aae439c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHJvamVjdHN8ZW58MHx8MHx8fDA%3D" alt="" />
       <div className='title'>
-        <h1>Our Projects</h1>
+        <h1>A Showcase of Excellence and Innovation</h1>
+        <h5>
+Welcome to the heart of our success story
+</h5>
       </div>
    </div>
         <div className="container">
