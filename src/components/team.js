@@ -62,7 +62,7 @@ const Team = () => {
   return (
     <>
       <div className='container text-center team'>
-        <div className="row row-cols-1 row-cols-lg-2 g-2 g-lg-3">
+        <div className="row row-cols-1 row-cols-lg-2 g-2 g-lg-3" style={{marginTop:"40px"}}>
           <div className="col team">
             <img
               src={ceo}
@@ -70,13 +70,12 @@ const Team = () => {
             />
           </div>
 
-          <div className="col team">
+          <div className="col team" >
             
               <h3>Sagitha Nath G<br /> <br />Chief Executive Officer</h3>
               <p>
                 <span style={{color:'darkblue',fontSize:"20px", marginTop:"40px"}}>
-                  Introducing Sagitha Nath G, the dynamic CEO driving our firm to new heights in the ever-evolving landscape of digital marketing, animations, and IT solutions. As the visionary leader, Sagitha Nath G's strategic approaches deliver innovative technological solutions. Their leadership ensures advanced offerings to meet the wide range of customer demands. In spite of directing the company as CEO, Sagitha Nath G is shaping a vision where technology and creativity converge seamlessly. With an uncompromising commitment to staying at the forefront of innovation, Sagitha Nath G is propelling our firm to new heights of success in the dynamic landscape of the digital era.
-                </span>
+                With a wealth of experience and a visionary approach, Miss. Sagitha Nath has steered our company to new heights. Their strategic insight, commitment to innovation, and dedication to our mission have been instrumental in shaping the success story of our organization.                </span>
                 <br /> <br />
               </p>
             </div>
@@ -102,7 +101,7 @@ const Team = () => {
               <h3>Vyshnav Pradeep<br /> <br />HR Assistant Manager/Head of Marketing Team</h3>
               <p>
                 <span style={{color:'darkblue',fontSize:"20px", marginTop:"40px"}}>
-                Vyshnav is our skilled digital marketing manager. He serves as the genius behind our team's triumphs and the expert who is overseeing our high-profile clients' SEO initiatives. Vyshnav successfully navigates the ever-changing world of digital marketing with an aggressive outlook and a wealth of knowledge, ensuring that our customers' online presence not only meets but surpasses their expectations. With Vyshnav's direction, our team delivers significant outcomes in search engine optimization and unique SEO strategy creation.                </span>
+                Mr.Vyshnav form the dynamic duo responsible for talent acquisition, employee development, and crafting impactful marketing strategies. He ensures our team thrives, while leading the charge in promoting our brand with creativity and strategic prowess.                                </span>
                 <br /> <br />
               </p>
             </div>
@@ -123,8 +122,7 @@ const Team = () => {
               <h4>Office Administrator</h4>
             </div>
             <p>
-            Meet Architha, the orchestrator of daily operations of our organization in her role as the Office Administrator. With precision and dedication, Architha ensures the seamless functioning of our workspace, embodying the essence of efficiency and professionalism. Her meticulous attention to detail guarantees an organized and productive environment for the entire team. Her excellent communication skills and proactive approach create an inviting atmosphere, reflecting positively on our company's image.
-            </p>
+            The unsung hero behind the scenes. She ensures the smooth functioning of our daily operations, fostering a collaborative and efficient work environment for everyone in the organization.            </p>
             </div>
            
           </div>
@@ -138,8 +136,7 @@ const Team = () => {
               <h4>Senior Accountant</h4>
             </div>
             <p>
-              Our dedicated Accounts Manager, the mastermind behind our seamless execution of all our account operations. With a keen eye, Anil drives the team to create detailed account plans for our prominent clients. By meticulously tracking every aspect of account planning and doing comprehensive financial projections, Anil guarantees that our clients receive not just a service but rather a customized financial strategy that is in line with their desired outcomes.
-            </p>
+            In charge of maintaining our financial stability is our Senior Accountant, [his name]. He brings a wealth of expertise to the table, ensuring meticulous financial management and guiding us towards fiscal success.            </p>
             </div>
             
           </div>
@@ -153,8 +150,7 @@ const Team = () => {
               <h4>Developing Team Head</h4>
             </div>
             <p>
-            Umesh, our development master, brings out the best in every line of code. He's the silent force driving our team's success, effortlessly handling hurdles. Umesh's expertise extends beyond programming; he is the glue that holds creativity, cooperation, and faultless execution together. His leadership brings projects to life, guaranteeing that each one is a work of art. Umesh's commitment is unrivaled, inspiring the team to reach new heights. Umesh is the constant, the steady hand leading our ship in the ever-changing tech scene.
-            </p>
+            Umesh champions innovation, guides the implementation of cutting-edge technologies, and ensures our digital solutions exceed industry standards.            </p>
             </div>
           
           </div>
@@ -169,8 +165,7 @@ const Team = () => {
               <h4>Team Lead (3D animations & Design)</h4>
             </div>
             <p>
-            Entrusted with the desires of our highly valued clients is Jibin, the artistic genius driving our 3D modeling and animation department. Jibin delivers immersive visual experiences through blending technical proficiency with creative thinking. Whether designing complex 3D models or bringing animations to life, Jibin's work showcases an unwavering commitment to perfection that resonates with our valued clients' discriminating preferences. 
-             </p>
+            Meet the creative force behind our visually stunning 3D animations and designs – our Team Lead Jibin, orchestrates a talented team to bring ideas to life.             </p>
             </div>
             
           </div>

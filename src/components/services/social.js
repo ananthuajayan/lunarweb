@@ -1,37 +1,43 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import strategicPlanning from '../webimages/strategic planning.jpg';
+import content from '../webimages/content creation social.jpg';
+import platfrom from '../webimages/platefrom optimization.jpg';
+import community from '../webimages/community eng.jpg';
+import analytics from '../webimages/analythics and report.jpg';
+import socialtrends from '../webimages/social media trending.avif';
 
 const serviceData = [
   {
-    imageUrl: 'https://i.pinimg.com/564x/79/c6/2d/79c62d94154fb332afb84191a996e66f.jpg',
+    imageUrl: strategicPlanning,
     title: 'Strategic Social Media Planning',
     description:'Develop a roadmap for success with our strategic social media planning. We analyze your brand, industry, and target audience to create a customized strategy that aligns with your business goals.'
   },
   {
-    imageUrl: 'https://i.pinimg.com/564x/58/5c/72/585c7270f50789aabb801a7a1e99f24e.jpg',
+    imageUrl: content,
     title: 'Content Creation and Curation',
     description:'Fuel your social media presence with compelling content. Our team of creative minds crafts engaging visuals, informative posts, and captivating captions that resonate with your audience and reflect your brand identity.'
   },
   {
-    imageUrl: 'https://i.pinimg.com/564x/50/21/89/5021893067da2d3a435df5bb036c7c7d.jpg',
+    imageUrl: platfrom,
     title: 'Platform Optimization',
     description:'Maximize your impact on each social media platform. We optimize your profiles, ensuring consistency in branding, and implement strategies tailored to the unique features and audience of each platform.'
 
   },
   {
-    imageUrl: 'https://i.pinimg.com/564x/3c/d8/e3/3cd8e3cc7401c37fd45a6cccb5a4162b.jpg',
+    imageUrl: community,
     title: 'Community Engagement',
     description:'Foster meaningful connections with your audience through active community engagement. We respond to comments, messages, and interactions, creating a positive and interactive online community around your brand.'
 
   },
   {
-    imageUrl: 'https://i.pinimg.com/564x/fc/aa/27/fcaa2762f73ca37f7add9bb0047d63aa.jpg',
+    imageUrl: analytics,
     title: 'Analytics and Reporting',
     description:'Stay informed about the performance of your social media efforts. Our detailed analytics and reporting provide insights into engagement, reach, and audience behavior, guiding future strategies for optimal results.'
 
   },
   {
-    imageUrl: 'https://i.pinimg.com/564x/7c/20/32/7c2032dc2f15759fe60e6b30cc29bf57.jpg',
+    imageUrl: socialtrends,
     title: 'Social Media Trends and Insights',
     description:'Keep your brand ahead of the curve with our focus on social media trends and insights. We stay updated on platform changes and industry trends, ensuring your strategy remains fresh and effective.'
 
